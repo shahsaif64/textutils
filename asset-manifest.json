@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/textutils/static/css/main.c303ae04.css",
+    "main.js": "/textutils/static/js/main.d1feb18b.js",
+    "static/js/787.142da1d4.chunk.js": "/textutils/static/js/787.142da1d4.chunk.js",
+    "static/media/ms-icon.png": "/textutils/static/media/ms-icon.1490848d86b389d6b091.png",
+    "index.html": "/textutils/index.html",
+    "main.c303ae04.css.map": "/textutils/static/css/main.c303ae04.css.map",
+    "main.d1feb18b.js.map": "/textutils/static/js/main.d1feb18b.js.map",
+    "787.142da1d4.chunk.js.map": "/textutils/static/js/787.142da1d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c303ae04.css",
+    "static/js/main.d1feb18b.js"
+  ]
+}
