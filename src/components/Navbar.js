@@ -8,7 +8,7 @@ export default function Navbar(props) {
 <nav className={`navbar navbar-expand-lg bg-${props.mode}`}>
   <div className="container-fluid">
     
-    <a className="navbar-brand" style={{color: props.mode==='info'?'black':'white'}} href="/"><img style={{backgroundColor: props.mode==='info'?'':'white',height:'20px',width:'20px',marginBottom:'10px'}} src={logo} alt="T" />extUtils</a>
+    <div className="navbar-brand" style={{color: props.mode==='info'?'black':'white'}}><img style={{backgroundColor: props.mode==='info'?'':'white',height:'20px',width:'20px',marginBottom:'10px'}} src={logo} alt="T" />extUtils</div>
     
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
