@@ -1,11 +1,8 @@
 
 import './App.css';
 import React, {useState} from 'react';
-
 import Navbar from './components/Navbar';
 import TextChange from './components/TextChange';
-import About from './components/About';
-import { BrowserRouter as Router , Routes, Route } from 'react-router-dom';
 import Alert from './components/Alert';
 
 
@@ -48,19 +45,11 @@ setTimeout(() => {
 
   return (
     <>
-    <Router>
+   
     <Navbar title="TextUtils" mode={mode} modeChange={modeChange}/>
     <Alert resp={alert}/>
-     <Routes>
-      <Route exact path='/' element={<TextChange title="Write to Change it To" mode={mode} showAlert={showAlert}/>} />
-      <Route exact path='/about' element={<About/>} />
-      
-       
-    </Routes>
-     
+    <TextChange title="Write to Change it To" mode={mode} showAlert={showAlert}/>
     
-    </Router>
-     
     </>
     
   );
